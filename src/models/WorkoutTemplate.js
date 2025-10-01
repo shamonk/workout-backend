@@ -9,12 +9,15 @@ const templateExerciseSchema = new mongoose.Schema({
 
 const workoutTemplateSchema = new mongoose.Schema({
   clientId: { type: String, required: true, unique: true },
-  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, index: true },
   name: { type: String, required: true },
   description: { type: String },
   exercises: [templateExerciseSchema],
-  lastModifiedAt: { type: Date, required: true },
+  lastModifiedAt: { type: Date, required: true, index: true },
 }, { timestamps: true });
+
+// Compound index for incremental sync (fetching by user + lastModifiedAt)
+workoutTemplateSchema.index({ user: 1, lastModifiedAt: -1 });
 
 const WorkoutTemplate = mongoose.model('WorkoutTemplate', workoutTemplateSchema);
 module.exports = WorkoutTemplate;
