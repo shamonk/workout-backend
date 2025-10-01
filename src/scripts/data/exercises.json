@@ -1,0 +1,22 @@
+[
+  { "name": "Bench Press", "category": "Chest" },
+  { "name": "Incline Dumbbell Press", "category": "Chest" },
+  { "name": "Push-up", "category": "Chest" },
+  { "name": "Pull-up", "category": "Back" },
+  { "name": "Deadlift", "category": "Back" },
+  { "name": "Barbell Row", "category": "Back" },
+  { "name": "Overhead Press", "category": "Shoulders" },
+  { "name": "Lateral Raise", "category": "Shoulders" },
+  { "name": "Face Pull", "category": "Shoulders" },
+  { "name": "Barbell Curl", "category": "Biceps" },
+  { "name": "Hammer Curl", "category": "Biceps" },
+  { "name": "Tricep Pushdown", "category": "Triceps" },
+  { "name": "Skull Crusher", "category": "Triceps" },
+  { "name": "Squat", "category": "Legs" },
+  { "name": "Leg Press", "category": "Legs" },
+  { "name": "Lunge", "category": "Legs" },
+  { "name": "Plank", "category": "Abs" },
+  { "name": "Crunches", "category": "Abs" },
+  { "name": "Running", "category": "Cardio" },
+  { "name": "Cycling", "category": "Cardio" }
+]
