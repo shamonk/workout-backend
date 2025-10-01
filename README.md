@@ -34,7 +34,7 @@ Think of it as your personal gym buddy that never loses track of your progress. 
 
 ### Step 1: See the Demo
 
-Check out this [**Interactive Demo**]([https://raheememad.github.io/Live_Demo/](https://shamonk-assessment.netlify.app/)).
+Check out this [**Interactive Demo**]([https://shamonk-assessment.netlify.app/]).
 Play with it offline/online to understand what you’re aiming to build.
 
 ### Step 2: Plan Your Time (Approx. 72 Hours)
